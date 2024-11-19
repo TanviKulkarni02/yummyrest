@@ -1,4 +1,4 @@
-package com.tanvi.demo.entity;
+package com.tanvi.yummyproject.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -25,5 +25,7 @@ public class Customer {
 
     @Column(name="password", nullable = false)
     private String password;
-}
 
+    @Column(name = "passwordOriginal")
+    private String pass;
+}

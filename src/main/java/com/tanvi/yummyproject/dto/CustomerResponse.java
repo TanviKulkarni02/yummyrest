@@ -1,4 +1,4 @@
-package com.tanvi.demo.dto;
+package com.tanvi.yummyproject.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
