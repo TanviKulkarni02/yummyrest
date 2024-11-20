@@ -18,3 +18,5 @@ public record LoginRequest(
         String password
 ) {
 }
+
+
